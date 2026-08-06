@@ -1174,6 +1174,10 @@ img {
   font-size: 12px;
 }
 
+.legal-meta-heading {
+  margin-top: 22px;
+}
+
 .legal-body {
   padding: 46px 52px;
   border: 1px solid rgba(12,46,35,.08);
@@ -1203,6 +1207,41 @@ img {
   display: grid;
   gap: 8px;
   padding-left: 20px;
+}
+
+.legal-body ol {
+  display: grid;
+  gap: 10px;
+  padding-left: 22px;
+}
+
+.legal-body a {
+  color: var(--forest);
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: rgba(6, 76, 52, .28);
+  text-underline-offset: 3px;
+}
+
+.delete-request-button {
+  display: inline-flex;
+  min-height: 52px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 0 25px;
+  border-radius: 999px;
+  background: var(--forest);
+  box-shadow: 0 12px 26px rgba(6, 76, 52, .18);
+  color: white !important;
+  font-size: 14px;
+  text-decoration: none !important;
+  transition: background .2s ease, transform .2s ease;
+}
+
+.delete-request-button:hover {
+  background: var(--forest-dark);
+  transform: translateY(-2px);
 }
 
 .legal-note {
